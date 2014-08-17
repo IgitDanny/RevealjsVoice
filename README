@@ -1,0 +1,5 @@
+Uso de reveal con el api de voz de webkit
+
+Comandos: Siguiente, Regresa, Arriba y Abajo
+
+Hay que recordar el reconocimiento puede fallar ya que el API es experimental
