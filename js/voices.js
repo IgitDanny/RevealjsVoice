@@ -35,7 +35,7 @@ function escucha () {
           			Reveal.right();
           	}else{
           		if(event.results[i][0].transcript.trim()=="regresa"){
-          			Reveal.left()
+          			Reveal.left();
           		}else{
           			if (event.results[i][0].transcript.trim()=="arriba") {
           				Reveal.up();
@@ -47,11 +47,9 @@ function escucha () {
           		}
           	}
           	
-console.log(event.results[i][0].transcript.trim());
+				console.log(event.results[i][0].transcript.trim());
           }
-         /*  if(event.results[i][0].transcript.trim() == "next"){
-           	Reveal.right();
-           }*/
+     
           
         }
     }
